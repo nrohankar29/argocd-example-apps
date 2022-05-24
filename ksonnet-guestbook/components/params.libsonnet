@@ -12,7 +12,7 @@
       name: "ks-guestbook-ui",
       replicas: 1,
       servicePort: 80,
-      type: "LoadBalancer",
+      type: "ClusterIP",
     },
   },
 }
